@@ -618,3 +618,92 @@ nav .fa-solid{
     }
 }
 
+
+
+
+
+
+
+
+/*...........chatbot..........*/
+/* Unique class names to avoid conflicts */
+.chat-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.chat-history {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.chat-bubble {
+    margin-bottom: 20px;
+}
+
+.user-bubble {
+    text-align: right;
+}
+
+.assistant-bubble {
+    text-align: left;
+}
+
+.chat-bubble p {
+    background-color: #fff; /* White chat bubble background */
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark grey text color */
+}
+
+.user-bubble p {
+    border-top-right-radius: 5px;
+}
+
+.assistant-bubble p {
+    border-top-left-radius: 5px;
+}
+
+.user-bubble .emoji,
+.assistant-bubble .emoji {
+    margin-right: 10px;
+}
+
+.user-input {
+    width: calc(100% - 60px);
+    padding: 12px 15px;
+    border: 2px solid #ddd; /* Light grey border */
+    border-radius: 25px;
+    margin-right: 10px;
+    color: #333; /* Dark grey text color */
+    background-color: #fff; /* White background color */
+}
+
+.send-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff; /* Blue send button */
+    color: #fff; /* White text color */
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.send-button:hover {
+    background-color: #0056b3; /* Darker shade of blue */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+input:focus {
+    outline: none;
+}
